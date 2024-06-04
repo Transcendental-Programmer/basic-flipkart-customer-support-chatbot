@@ -1,0 +1,297 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi there",
+          "How are you",
+          "Is anyone there?",
+          "Hey",
+          "Hola",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hello, welcome to Flipkart customer support. How can I assist you today?",
+          "Hi there! How can I help you with your Flipkart experience?",
+          "Hey! Welcome to Flipkart. How can I assist you today?"
+        ],
+        "context": ""
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "See you later",
+          "Goodbye",
+          "Nice chatting to you, bye",
+          "Till next time"
+        ],
+        "responses": [
+          "Goodbye! Take care and happy shopping on Flipkart!",
+          "Bye! Have a great day and happy shopping!",
+          "See you later! If you need any help, feel free to reach out."
+        ],
+        "context": ""
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "That's helpful",
+          "Awesome, thanks",
+          "Thanks for helping me"
+        ],
+        "responses": [
+          "You're welcome! If you have any more questions, don't hesitate to ask.",
+          "Glad I could assist you! Happy shopping on Flipkart!",
+          "My pleasure! If you need assistance in the future, just let me know."
+        ],
+        "context": ""
+      },
+      {
+        "tag": "noanswer",
+        "patterns": [],
+        "responses": [
+          "Sorry, I didn't catch that. Could you please provide more details?",
+          "I'm not sure I understand. Can you rephrase your question?",
+          "Apologies, I'm having trouble understanding. Could you please clarify?"
+        ],
+        "context": ""
+      },
+      {
+        "tag": "product_inquiry",
+        "patterns": [
+          "Can you help me find a product?",
+          "I'm looking for a product",
+          "Need assistance in finding a product",
+          "Can you suggest a product?",
+          "Looking for something on Flipkart"
+        ],
+        "responses": [
+          "Of course! What type of product are you looking for?",
+          "Sure, I'd be happy to help you find a product. What are you interested in?",
+          "Absolutely, I can assist you in finding the perfect product. What category are you interested in?"
+        ],
+        "context": ""
+      },
+      {
+        "tag": "order_status",
+        "patterns": [
+          "Can you check the status of my order?",
+          "Where is my order?",
+          "I want to know the status of my order",
+          "Check my order status"
+        ],
+        "responses": [
+          "Sure, I can help with that. Please provide your order number.",
+          "Of course, I just need your order number to check the status.",
+          "Sure thing! Can you provide me with your order number?"
+        ],
+        "context": ""
+      },
+      {
+        "tag": "provide_order_number",
+        "patterns": [
+          "My order number is {order_number}",
+          "It is {order_number}",
+          "Order number {order_number}"
+        ],
+        "responses": [
+          "Thank you for providing the order number. Let me check the status for you.",
+          "Got it. Let me look up the status of order {order_number} for you.",
+          "Great, I'll check the status of order {order_number} for you."
+        ],
+        "context": ""
+      },
+      {
+        "tag": "order_feedback",
+        "patterns": [
+          "I want to give feedback on my order",
+          "I have feedback about my recent order",
+          "How do I provide feedback for my order?",
+          "I want to share my feedback"
+        ],
+        "responses": [
+          "We appreciate your feedback! Please share your thoughts about your recent order.",
+          "Your feedback is valuable to us! What feedback do you have for your recent order?",
+          "We're here to listen! Please provide your feedback for your recent order."
+        ],
+        "context": ""
+      },
+      {
+        "tag": "complaint",
+        "patterns": [
+          "I have a complaint about my order",
+          "I need to report an issue with my order",
+          "There's a problem with my order",
+          "I want to file a complaint"
+        ],
+        "responses": [
+          "I'm sorry to hear that. Please tell me more about the issue so I can assist you.",
+          "I apologize for the inconvenience. Please provide details about the problem with your order.",
+          "I understand your concern. Let's work together to resolve the issue. What seems to be the problem?"
+        ],
+        "context": ""
+      },
+      {
+        "tag": "priyansh_saxena_intro",
+        "patterns": [
+          "Hi, I'm Priyansh Saxena",
+          "Hello, Priyansh Saxena here",
+          "Hi there, this is Priyansh Saxena",
+          "Hey, Priyansh Saxena"
+        ],
+        "responses": [
+          "Hello Priyansh Saxena! How can I assist you today?",
+          "Hi Priyansh Saxena! What can I do for you?",
+          "Hey Priyansh Saxena! How can I help you?"
+        ],
+        "context": ""
+      },
+      {
+        "tag": "priyansh_saxena_query_order",
+        "patterns": [
+          "I want to know the status of my order",
+          "Can you check the status of my order?",
+          "I need an update on my order",
+          "Where is my order?",
+          "Order status update",
+          "Track my order"
+        ],
+        "responses": [
+          "Sure Priyansh, please provide your order number.",
+          "Alright Priyansh, I'll need your order number to check the status.",
+          "Of course Priyansh, I can help you with that. Please provide your order number."
+        ],
+        "context": "priyansh_saxena_check_order_status"
+      },
+      {
+        "tag": "priyansh_saxena_check_order_status",
+        "patterns": [],
+        "responses": [
+          "Thank you Priyansh. Let me check the status of your order.",
+          "Got it Priyansh. Give me a moment to look up your order status.",
+          "Sure Priyansh. I'll check the status of your order right away."
+        ],
+        "context": ""
+      },
+      {
+        "tag": "priyansh_saxena_feedback",
+        "patterns": [
+          "I have some feedback",
+          "Can I give feedback?",
+          "I want to provide feedback",
+          "I have a suggestion",
+          "Can I share some feedback?"
+        ],
+        "responses": [
+          "Sure Priyansh! Please share your feedback.",
+          "Absolutely Priyansh! Tell us what you think.",
+          "We appreciate your feedback Priyansh! What would you like to share?",
+          "Your feedback is valuable Priyansh. Please go ahead.",
+          "We're all ears Priyansh! What feedback do you have for us?"
+        ],
+        "context": ""
+      },
+      {
+        "tag": "priyansh_saxena_complaint",
+        "patterns": [
+          "I have a complaint",
+          "I need to report an issue",
+          "I want to file a complaint",
+          "There's a problem with my order",
+          "I have an issue with your service"
+        ],
+        "responses": [
+          "I'm sorry to hear that Priyansh. Please provide the details of your complaint.",
+          "We apologize for the inconvenience Priyansh. Can you describe the issue?",
+          "I'm here to help Priyansh. What seems to be the problem?",
+          "Please tell us more about the issue Priyansh, and we'll do our best to resolve it.",
+          "We're sorry to hear that Priyansh. Can you give us more details about the problem?"
+        ],
+        "context": ""
+      }, 
+      {
+        "tag": "product_search",
+        "patterns": [
+          "Can you help me find a product?",
+          "I'm looking for a specific product",
+          "Find me a product",
+          "Help me search for a product"
+        ],
+        "responses": [
+          "Of course! What product are you searching for?",
+          "Sure thing! Let me know what you're looking for.",
+          "Absolutely! What type of product do you need?"
+        ],
+        "context": ""
+      },
+      {
+        "tag": "product_recommendation",
+        "patterns": [
+          "Can you recommend a product?",
+          "I need product recommendations",
+          "Suggest me a product",
+          "What's popular on Flipkart?"
+        ],
+        "responses": [
+          "Sure! What category of products are you interested in?",
+          "I'd be happy to recommend some products. What are your preferences?",
+          "Absolutely! Let me know your interests, and I'll suggest some products."
+        ],
+        "context": ""
+      },
+      {
+        "tag": "order_return",
+        "patterns": [
+          "I want to return an order",
+          "How can I return my order?",
+          "Return policy",
+          "Can I return a product?"
+        ],
+        "responses": [
+          "Sure, I can assist you with the return process. Please provide your order details.",
+          "I understand. To initiate a return, I'll need some information about your order.",
+          "Of course, let's proceed with the return process. Can you provide your order details?"
+        ],
+        "context": ""
+      },
+      {
+        "tag": "order_cancel",
+        "patterns": [
+          "I want to cancel my order",
+          "Cancel order",
+          "How do I cancel my order?"
+        ],
+        "responses": [
+          "Understood. To cancel your order, I'll need your order information.",
+          "Sure, I can help you cancel your order. Please provide your order details.",
+          "No problem. Let's cancel your order. Can you provide your order information?"
+        ],
+        "context": ""
+      },
+      {
+        "tag": "order_cancel_process",
+        "patterns": [],
+        "responses": [
+          "Thank you for providing your order details. Let me initiate the cancellation process.",
+          "Got it. I'll start the cancellation process for your order.",
+          "Great. I'll proceed with canceling your order now."
+        ],
+        "context": ""
+      },
+      {
+        "tag": "order_return_process",
+        "patterns": [],
+        "responses": [
+          "Thanks for providing your order details. I'll guide you through the return process.",
+          "Got it. I'll assist you with the return process for your order.",
+          "Perfect. I'll help you initiate the return process right away."
+        ],
+        "context": ""
+      }
+    ]
+  }
+   
